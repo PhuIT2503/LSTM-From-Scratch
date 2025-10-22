@@ -22,7 +22,7 @@ Mô hình được huấn luyện thử nghiệm trên bộ IMDB Reviews Dataset
 ```
 
 ## 🧩 Thành phần chính
-1. LSTM_From_Scratch
+### 1. LSTM_From_Scratch
 
 Tự cài đặt một cell LSTM với 4 cổng:
 
@@ -36,7 +36,7 @@ Candidate Cell (n_c_t) – Sinh thông tin mới để kết hợp vào cell sta
 
 Toàn bộ phép nhân ma trận, cộng, sigmoid, tanh đều được tính thủ công bằng TensorFlow.
 
-2. LSTM_From_Scratch_Model
+### 2. LSTM_From_Scratch_Model
 
 Kết hợp lớp Embedding, lớp LSTM tự cài đặt, và một mạng Fully Connected để phân loại.
 

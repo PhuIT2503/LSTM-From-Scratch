@@ -14,11 +14,10 @@ Mô hình được huấn luyện thử nghiệm trên bộ IMDB Reviews Dataset
 ```
 📂 lstm_from_scratch/
 │
-├── 📜 LSTM_From_Scratch.py         # Cài đặt lớp LSTM thủ công
-├── 📜 RNN_with_LSTM_From_Scratch.py # Mô hình RNN kết hợp lớp LSTM tự build
-├── 📜 train_imdb.py                 # File huấn luyện và đánh giá mô hình
-├── 📜 requirements.txt              # Danh sách thư viện cần thiết
-└── 📘 README.md                     # File giới thiệu (bạn đang đọc đây)
+├── 📜 IMDB Dataset.csv         # Bộ dữ liệu IMDB
+├── 📜 LSTM_From_Scratch        # Mô hình LSTM tự build và Pipeline huấn luyện
+├── 📜 requirements.txt         # Danh sách thư viện cần thiết
+└── 📘 README.md                # File giới thiệu
 ```
 
 ## 🧩 Thành phần chính

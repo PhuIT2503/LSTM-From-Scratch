@@ -64,11 +64,11 @@ cd lstm-from-scratch
 pip install -r requirements.txt
 ```
 2️⃣ Huấn luyện mô hình
-python train_imdb.py
+Chạy file LSTM_From_Scratch.ipynb
 
 3️⃣ Kết quả dự kiến
 
-Sau vài epoch (tuỳ cấu hình), mô hình sẽ đạt khoảng 70–80% accuracy trên tập test, đủ để chứng minh rằng mô hình LSTM tự cài đặt hoạt động đúng.
+Sau vài epoch (tuỳ cấu hình), mô hình 86% accuracy trên tập test, đủ để chứng minh rằng mô hình LSTM tự cài đặt hoạt động đúng.
 
 ## 🧠 Ý nghĩa học thuật
 

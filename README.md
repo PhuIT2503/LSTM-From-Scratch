@@ -11,6 +11,7 @@ Mục tiêu là giúp hiểu cơ chế nội tại của LSTM — cách mà nó 
 Mô hình được huấn luyện thử nghiệm trên bộ IMDB Reviews Dataset, một tập dữ liệu phổ biến trong bài toán phân loại cảm xúc (sentiment analysis).
 
 ## ⚙️ Cấu trúc dự án
+```
 📂 lstm_from_scratch/
 │
 ├── 📜 LSTM_From_Scratch.py         # Cài đặt lớp LSTM thủ công
@@ -18,6 +19,7 @@ Mô hình được huấn luyện thử nghiệm trên bộ IMDB Reviews Dataset
 ├── 📜 train_imdb.py                 # File huấn luyện và đánh giá mô hình
 ├── 📜 requirements.txt              # Danh sách thư viện cần thiết
 └── 📘 README.md                     # File giới thiệu (bạn đang đọc đây)
+```
 
 ## 🧩 Thành phần chính
 1. LSTM_From_Scratch
@@ -56,10 +58,11 @@ Padding các chuỗi về cùng độ dài (ví dụ: maxlen=200).
 
 ## 🚀 Cách chạy thử
 1️⃣ Cài đặt môi trường
+```bash
 git clone https://github.com/PhuIT2503/LSTM-From-Scratch
 cd lstm-from-scratch
 pip install -r requirements.txt
-
+```
 2️⃣ Huấn luyện mô hình
 python train_imdb.py
 
